@@ -4,7 +4,7 @@ async function httpRegisterUser (req, res) {
     try{
         const {username, email, password} = req.body;
 
-        // Basic validation (must be improved at production)
+        // Basic validation 
         if (!username || !email || !password){
             return res.status(400).json({message: "Please provide all fields"})
         }
