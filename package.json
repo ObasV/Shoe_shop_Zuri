@@ -9,9 +9,9 @@
     "vercel-build":"echo hello"
   },
   "keywords": [],
-  "author": "",
+  "author": "Olusola",
   "license": "ISC",
-  "description": "",
+  "description": "Allow for the creation of user, product, inventory and cart(mock) records of a shoe shop",
   "dependencies": {
     "bcrypt": "^5.1.1",
     "dotenv": "^16.4.5",
